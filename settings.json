@@ -1,0 +1,79 @@
+{
+    "git.autofetch": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": -1,
+    "latex-workshop.latex.recipes": [
+        {
+          "name": "latexmk 🔃",
+          "tools": [
+            "latexmk"
+          ]
+        },
+        {
+          "name": "pdflatex ➞ bibtex ➞ pdflatex`×2",
+          "tools": [
+            "pdflatex",
+            "bibtex",
+            "pdflatex",
+            "pdflatex"
+          ]
+        },
+        {
+            "name": "pdflatex ➞ bibtex ➞ makeindex ➞ pdflatex`×2",
+            "tools": [
+              "pdflatex",
+              "bibtex",
+              "makeindex",
+              "pdflatex",
+              "pdflatex"
+            ]
+          }
+      ]
+    ,
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        { 
+            "name": "makeindex",
+            "command": "makeindex",
+            "args": [
+                "%DOCFILE%.nlo",
+                "-s",
+                "nomencl.ist",
+                "-o",
+                "%DOCFILE%.nls"
+            ]
+        }
+    ]
+} 

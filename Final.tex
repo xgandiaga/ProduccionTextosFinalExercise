@@ -1,4 +1,8 @@
 \documentclass[10pt,journal]{IEEEtran}
+
+\def\bframe#1\eframe{\begin{frame}#1\end{frame}}
+
+
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
@@ -6,6 +10,7 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{subcaption}
+\usepackage{framed}
 \usepackage[noadjust]{cite} %citas agrupadas
 %\usepackage{hyperref}
 \usepackage{textcomp}  %grados bibliografía
@@ -16,6 +21,8 @@
 \usepackage{tabularx}
 \newcolumntype{d}[1]{D{ ,}{.}{#1}} %nuevo tipo de columna con decimales
 
+\usepackage{nomencl}
+\makenomenclature
 
 \markboth{Journal of Power Sources}{} %titulo pagina
 \title{Analysis of structural damage on the struck ship under side collision scenario}
@@ -93,15 +100,38 @@ as they used proposed energy formula by Zhang (Eqs. (1)–(3)). This formula is 
 The damage modes of some basic structural element had been investigated by several authors \cite{paik1995ultimate,lu1990cutting,wierzbicki1993closed,simonsen1997ship,prabowo2017structural}, and the mean resistance is expressed in Eq. (7), and its relation with lateral indentation is described in Eq. (8). Kitamura 
 in 2002 introduced finite element method (FEM) approach in simulating collision phenomenon \cite{kitamura2002fem} which was followed with verification in method and setting of FEM \cite{wisniewski2003effect}. 
 
-Ec1
-Ec2
-Ec3
-ec4
-ec5
-ec6
-ec7
-ec8
- 
+%Nomenclature table
+\begin{table*}[!t]
+    \begin{framed}
+    {
+        \fontfamily{stix}\selectfont % select font nomenclature
+        \fontsize{10}{12}\selectfont % font 12 pt nomenclature
+        \nomenclature{$\alpha$}{exponent for Eq. (\ref{eq7}) with range 1.5–1.7}		
+        \nomenclature{$\beta$}{exponent for Eq. (\ref{eq7}) with range 0.3–0.5 with $\alpha + \beta =2$}  
+        \nomenclature{$\beta$}{hardening parameter}
+        \nomenclature{$\delta$}{lateral indentation (mm)}
+        \nomenclature{$\mathcal{E}$}{strain rate (s$^{-1}$)}
+        \nomenclature{$t_N$}{damage thickness of striking ship (m)}
+        \nomenclature{$t_n$}{damage thickness of struck ship (m)}
+        \nomenclature{$t_s$}{side shell thickness (cm)}
+
+        \printnomenclature
+    }
+    \end{framed}
+\end{table*}
+
+%ECUATIONS
+\begin{flalign} 
+    &E=0.77 \varepsilon_{c} \sigma_{0} R_{T}& \label{eq1}  \\[12pt]
+    &E=3.50\left(\frac{t}{d}\right)^{0.67} \sigma_{0} R_{T}& \label{eq2} \\[12pt]
+    &E=3.21\left(\frac{t}{l}\right)^{0.6} \sigma_{0} R_{T}& \label{eq3} \\[12pt]
+    &E=47.2 R_{T}+32.7& \label{eq4} \\[12pt]
+    &R_{T}=\sum P_{N} L_{N} T_{N}+\sum P_{n} L_{n} T_{n}& \label{eq5} \\[12pt]
+    &E=47.2 R_{T}+0.5 \sum\left(h . t_{s}^{2}\right)&  \label{eq6} \\[12pt]
+    &F_{m}=D_{1} \sigma_{0} t^{\alpha} c^{\beta}& \label{eq7} \\[12pt]
+    &F_{p}=D_{2} \sigma_{0} t \delta& \label{eq8}
+\end{flalign}
+
 These researches are classified in large-analyses as ships are used as observation object. Smaller involved objects was reviewed in crash simulation by finite element analysis \cite{abdel2013frontal} 
 and oblique impact scenario of thin-walled tube \cite{manikandaraja2016numerical}. 
 In collision study, damage is evaluated which directly receives influence from applied material on its structure or construction. Formulation of material characteristic was addressed in term of hardening parameter \cite{krieg1976implementation}
@@ -158,8 +188,12 @@ This formulation was considered as it was evidenced by previous author that this
 Meshing size for each ship was given different treatment. The struck ship which was defined as deformable structure, was given meshing size according to rec­ommendation of Tornqvist and Simonsen \cite{toernqvist2004safety}
 as well as Alsos and Amdahl \cite{alsos2007resistance}, who indicated that in order to capture local deformation pattern, the size should be given within range of the element-length-to-thickness (ELT) ratio 5–10.
 
-ec 9
-ec 10 
+
+%%Ecuations
+\begin{flalign}
+    &\sigma_{y} =\left[1+\left(\frac{\varepsilon}{C}\right)^{\frac{1}{P}}\right]\left(\sigma_{0}+\beta E_{p} \varepsilon_{p}^{e f f}\right)& \label{eq9} \\[12pt]
+    &E_{p} =\frac{E_{\mathrm{tan}} E}{E-E_{\mathrm{tan}}}& \label{eq10}
+\end{flalign}
 
 Image
 

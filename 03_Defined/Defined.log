@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.21)  30 NOV 2021 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.21)  30 NOV 2021 16:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Results/Results.tex"
-(/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Results/Results.tex
+**"/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Defined/Defined.tex"
+(/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Defined/Defined.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.cls
 Document Class: subfiles 2020/02/14 v1.6 Multi-file projects (class)
@@ -547,6 +547,13 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count319
+\float@exts=\toks40
+\float@box=\box71
+\@float@everytoks=\toks41
+\@floatcapt=\box72
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
@@ -570,11 +577,12 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count319
-\c@continuedfloat=\count320
+\c@caption@flags=\count320
+\c@continuedfloat=\count321
+Package caption Info: float package is loaded.
 )
-\c@subfigure=\count321
-\c@subtable=\count322
+\c@subfigure=\count322
+\c@subtable=\count323
 ) (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip61
@@ -597,17 +605,17 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@old@col=\dimen327
 \TX@target=\dimen328
 \TX@delta=\dimen329
-\TX@cols=\count323
-\TX@ftn=\toks40
+\TX@cols=\count324
+\TX@ftn=\toks42
 ) (/usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty
 Package: nomencl 2019/11/23 v5.3 Nomenclature package
  (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
  (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks41
-\XKV@tempa@toks=\toks42
+\XKV@toks=\toks43
+\XKV@tempa@toks=\toks44
 )
-\XKV@depth=\count324
+\XKV@depth=\count325
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -619,7 +627,7 @@ Package: scrbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-independent b
 Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
 ))
 \scr@dte@tocline@numberwidth=\skip62
-\scr@dte@tocline@numbox=\box71
+\scr@dte@tocline@numbox=\box73
 )
 Package tocbasic Info: setting babel extension for `nlo' on input line 163.
 Package tocbasic Info: setting babel extension for `nls' on input line 164.
@@ -628,13 +636,13 @@ Package tocbasic Info: setting babel extension for `nls' on input line 164.
 \nomitemsep=\skip63
 )
 \@nomenclaturefile=\write4
-\openout4 = `Results.nlo'.
+\openout4 = `Defined.nlo'.
 
-Package nomencl Info: Writing nomenclature file Results.nlo on input line 25.
+Package nomencl Info: Writing nomenclature file Defined.nlo on input line 29.
  (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/02/14 v1.6 Multi-file projects (package)
-))) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Results/Results.aux)
-\openout1 = `Results.aux'.
+))) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Defined/Defined.aux)
+\openout1 = `Defined.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
@@ -658,17 +666,17 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count325
+\scratchcounter=\count326
 \scratchdimen=\dimen332
-\scratchbox=\box72
-\nofMPsegments=\count326
-\nofMParguments=\count327
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count328
+\scratchbox=\box74
+\nofMPsegments=\count327
+\nofMParguments=\count328
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count329
 \MPscratchDim=\dimen333
-\MPnumerator=\count329
-\makeMPintoPDFobject=\count330
-\everyMPtoPDFconversion=\toks44
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
+\everyMPtoPDFconversion=\toks46
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -684,24 +692,85 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+)
+<fig1.jpg, id=4, 397.80478pt x 168.84319pt>
+File: fig1.jpg Graphic file (type jpg)
+<use fig1.jpg>
+Package pdftex.def Info: fig1.jpg  used on input line 9.
+(pdftex.def)             Requested size: 516.0pt x 219.0375pt.
 
-] [2
 
-] (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Results/Results.aux) ) 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package caption Warning: \label without proper reference on input line 10.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig1' on page 1 undefined on input line 18.
+
+
+Package caption Warning: \label without proper reference on input line 32.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig2' on page 1 undefined on input line 20.
+
+
+Package caption Warning: \label without proper reference on input line 55.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig3' on page 1 undefined on input line 20.
+
+<fig2.jpg, id=5, 369.66425pt x 501.4131pt>
+File: fig2.jpg Graphic file (type jpg)
+<use fig2.jpg>
+Package pdftex.def Info: fig2.jpg  used on input line 31.
+(pdftex.def)             Requested size: 252.0pt x 341.8133pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `ansys2017user' on page 1 undefined on input line 38.
+
+
+LaTeX Warning: Citation `bae2016study' on page 1 undefined on input line 41.
+
+
+LaTeX Warning: Citation `toernqvist2004safety' on page 1 undefined on input line 42.
+
+
+LaTeX Warning: Citation `alsos2007resistance' on page 1 undefined on input line 43.
+
+<fig3.jpg, id=6, 398.44434pt x 259.0208pt>
+File: fig3.jpg Graphic file (type jpg)
+<use fig3.jpg>
+Package pdftex.def Info: fig3.jpg  used on input line 54.
+(pdftex.def)             Requested size: 252.0pt x 163.82027pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+] [2 </home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Defined/fig1.jpg> </home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Defined/fig2.jpg> </home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Defined/fig3.jpg>] (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Defined/Defined.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 20553 strings out of 481239
- 426974 string characters out of 5920377
- 689885 words of memory out of 5000000
- 35451 multiletter control sequences out of 15000+600000
- 627048 words of font info for 121 fonts, out of 8000000 for 9000
+ 20669 strings out of 481239
+ 428392 string characters out of 5920377
+ 695286 words of memory out of 5000000
+ 35550 multiletter control sequences out of 15000+600000
+ 633269 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,6n,77p,569b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Results/Results.pdf" (2 pages, 34959 bytes).
+ 80i,10n,77p,569b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Defined/Defined.pdf" (2 pages, 339206 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

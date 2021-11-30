@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.21)  30 NOV 2021 14:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.21)  30 NOV 2021 16:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final"
+**"/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.tex"
 (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
@@ -537,6 +537,13 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count319
+\float@exts=\toks38
+\float@box=\box71
+\@float@everytoks=\toks39
+\@floatcapt=\box72
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
@@ -560,11 +567,12 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count319
-\c@continuedfloat=\count320
+\c@caption@flags=\count320
+\c@continuedfloat=\count321
+Package caption Info: float package is loaded.
 )
-\c@subfigure=\count321
-\c@subtable=\count322
+\c@subfigure=\count322
+\c@subtable=\count323
 ) (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip61
@@ -587,17 +595,17 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@old@col=\dimen327
 \TX@target=\dimen328
 \TX@delta=\dimen329
-\TX@cols=\count323
-\TX@ftn=\toks38
+\TX@cols=\count324
+\TX@ftn=\toks40
 ) (/usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty
 Package: nomencl 2019/11/23 v5.3 Nomenclature package
  (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
  (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks39
-\XKV@tempa@toks=\toks40
+\XKV@toks=\toks41
+\XKV@tempa@toks=\toks42
 )
-\XKV@depth=\count324
+\XKV@depth=\count325
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -609,7 +617,7 @@ Package: scrbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-independent b
 Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
 ))
 \scr@dte@tocline@numberwidth=\skip62
-\scr@dte@tocline@numbox=\box71
+\scr@dte@tocline@numbox=\box73
 )
 Package tocbasic Info: setting babel extension for `nlo' on input line 163.
 Package tocbasic Info: setting babel extension for `nls' on input line 164.
@@ -620,28 +628,28 @@ Package tocbasic Info: setting babel extension for `nls' on input line 164.
 \@nomenclaturefile=\write4
 \openout4 = `Final.nlo'.
 
-Package nomencl Info: Writing nomenclature file Final.nlo on input line 25.
+Package nomencl Info: Writing nomenclature file Final.nlo on input line 28.
  (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/02/14 v1.6 Multi-file projects (package)
  (/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
 Package: import 2009/03/23  v 5.1
-)) (./Final.aux)
+)) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.aux)
 \openout1 = `Final.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
 
 -- Lines per column: 58 (exact).
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
@@ -650,17 +658,17 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count325
+\scratchcounter=\count326
 \scratchdimen=\dimen332
-\scratchbox=\box72
-\nofMPsegments=\count326
-\nofMParguments=\count327
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count328
+\scratchbox=\box74
+\nofMPsegments=\count327
+\nofMParguments=\count328
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count329
 \MPscratchDim=\dimen333
-\MPnumerator=\count329
-\makeMPintoPDFobject=\count330
-\everyMPtoPDFconversion=\toks42
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
+\everyMPtoPDFconversion=\toks44
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -669,49 +677,261 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 55.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 55.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 58.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 58.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 1622) in paragraph at lines 69--71
+Underfull \hbox (badness 1622) in paragraph at lines 72--74
 []\T1/ptm/b/it/9 Index Terms\T1/ptm/b/n/9 ---Collision sce-nario; Fi-nite el-e-ment anal-y-sis
  []
 
-(./Introduction/Introduction.tex) (./Collision/Collision.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./01_Introduction/Introduction.tex) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./02_Collision/Collision.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+stix on input line 19.
  (/usr/share/texlive/texmf-dist/tex/latex/stix/t1stix.fd
 File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
-) (./Final.nls)
+) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.nls)
 Overfull \hbox (3.37334pt too wide) in paragraph at lines 56--68
 [] 
  []
 
-) (./Defined/Defined.tex [2]) (./Results/Results.tex [3]) (./Conclusions/Conclusions.tex) [4] (./Acknowledgement/Acknowledgement.tex) (./Final.bbl) [5] (./Final.aux) ) 
+) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./03_Defined/Defined.tex
+<./03_Defined/fig1.jpg, id=13, 397.80478pt x 168.84319pt>
+File: ./03_Defined/fig1.jpg Graphic file (type jpg)
+<use ./03_Defined/fig1.jpg>
+Package pdftex.def Info: ./03_Defined/fig1.jpg  used on input line 9.
+(pdftex.def)             Requested size: 516.0pt x 219.0375pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package caption Warning: \label without proper reference on input line 10.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig1' on page 2 undefined on input line 18.
+
+
+Package caption Warning: \label without proper reference on input line 32.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig2' on page 2 undefined on input line 20.
+
+
+Package caption Warning: \label without proper reference on input line 55.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig3' on page 2 undefined on input line 20.
+
+<./03_Defined/fig2.jpg, id=14, 369.66425pt x 501.4131pt>
+File: ./03_Defined/fig2.jpg Graphic file (type jpg)
+<use ./03_Defined/fig2.jpg>
+Package pdftex.def Info: ./03_Defined/fig2.jpg  used on input line 31.
+(pdftex.def)             Requested size: 252.0pt x 341.8133pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2]
+<./03_Defined/fig3.jpg, id=24, 398.44434pt x 259.0208pt>
+File: ./03_Defined/fig3.jpg Graphic file (type jpg)
+<use ./03_Defined/fig3.jpg>
+Package pdftex.def Info: ./03_Defined/fig3.jpg  used on input line 54.
+(pdftex.def)             Requested size: 252.0pt x 163.82027pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./04_Results/Results.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./03_Defined/fig1.jpg>]
+<./04_Results/fig4.jpg, id=35, 422.74753pt x 234.7176pt>
+File: ./04_Results/fig4.jpg Graphic file (type jpg)
+<use ./04_Results/fig4.jpg>
+Package pdftex.def Info: ./04_Results/fig4.jpg  used on input line 10.
+(pdftex.def)             Requested size: 252.0pt x 139.91837pt.
+<./04_Results/fig5.jpg, id=36, 238.55496pt x 154.77292pt>
+File: ./04_Results/fig5.jpg Graphic file (type jpg)
+<use ./04_Results/fig5.jpg>
+Package pdftex.def Info: ./04_Results/fig5.jpg  used on input line 17.
+(pdftex.def)             Requested size: 252.0pt x 163.49878pt.
+<./04_Results/fig6.jpg, id=37, 239.19452pt x 155.41248pt>
+File: ./04_Results/fig6.jpg Graphic file (type jpg)
+<use ./04_Results/fig6.jpg>
+Package pdftex.def Info: ./04_Results/fig6.jpg  used on input line 24.
+(pdftex.def)             Requested size: 252.0pt x 163.73569pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package caption Warning: \label without proper reference on input line 18.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig5' on page 4 undefined on input line 30.
+
+
+Package caption Warning: \label without proper reference on input line 25.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig6' on page 4 undefined on input line 30.
+
+[4 <./03_Defined/fig2.jpg> <./03_Defined/fig3.jpg> <./04_Results/fig4.jpg> <./04_Results/fig5.jpg>]
+<./04_Results/fig7.jpg, id=41, 397.80478pt x 118.9577pt>
+File: ./04_Results/fig7.jpg Graphic file (type jpg)
+<use ./04_Results/fig7.jpg>
+Package pdftex.def Info: ./04_Results/fig7.jpg  used on input line 40.
+(pdftex.def)             Requested size: 252.0pt x 75.35759pt.
+<./04_Results/fig8.jpg, id=42, 303.15027pt x 296.75468pt>
+File: ./04_Results/fig8.jpg Graphic file (type jpg)
+<use ./04_Results/fig8.jpg>
+Package pdftex.def Info: ./04_Results/fig8.jpg  used on input line 47.
+(pdftex.def)             Requested size: 252.0pt x 246.68668pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package caption Warning: \label without proper reference on input line 41.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig7' on page 5 undefined on input line 53.
+
+
+Package caption Warning: \label without proper reference on input line 48.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig8' on page 5 undefined on input line 53.
+
+<./04_Results/fig9.jpg, id=43, 238.55496pt x 177.15744pt>
+File: ./04_Results/fig9.jpg Graphic file (type jpg)
+<use ./04_Results/fig9.jpg>
+Package pdftex.def Info: ./04_Results/fig9.jpg  used on input line 69.
+(pdftex.def)             Requested size: 252.0pt x 187.14532pt.
+<./04_Results/fig10.jpg, id=44, 239.19452pt x 173.32008pt>
+File: ./04_Results/fig10.jpg Graphic file (type jpg)
+<use ./04_Results/fig10.jpg>
+Package pdftex.def Info: ./04_Results/fig10.jpg  used on input line 76.
+(pdftex.def)             Requested size: 252.0pt x 182.60234pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./04_Results/fig11.jpg, id=45, 298.67337pt x 341.52371pt>
+File: ./04_Results/fig11.jpg Graphic file (type jpg)
+<use ./04_Results/fig11.jpg>
+Package pdftex.def Info: ./04_Results/fig11.jpg  used on input line 83.
+(pdftex.def)             Requested size: 252.0pt x 288.15471pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./04_Results/fig12.jpg, id=46, 239.19452pt x 176.51788pt>
+File: ./04_Results/fig12.jpg Graphic file (type jpg)
+<use ./04_Results/fig12.jpg>
+Package pdftex.def Info: ./04_Results/fig12.jpg  used on input line 91.
+(pdftex.def)             Requested size: 252.0pt x 185.97142pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package caption Warning: \label without proper reference on input line 70.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig9' on page 5 undefined on input line 97.
+
+
+Package caption Warning: \label without proper reference on input line 77.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig10' on page 5 undefined on input line 97.
+
+
+Package caption Warning: \label without proper reference on input line 84.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig11' on page 5 undefined on input line 98.
+
+[5 <./04_Results/fig6.jpg> <./04_Results/fig7.jpg> <./04_Results/fig8.jpg> <./04_Results/fig9.jpg>]
+
+Package caption Warning: \label without proper reference on input line 92.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig12' on page 6 undefined on input line 106.
+
+
+LaTeX Warning: Reference `fig13' on page 6 undefined on input line 107.
+
+<./04_Results/fig14.jpg, id=50, 239.19452pt x 170.76186pt>
+File: ./04_Results/fig14.jpg Graphic file (type jpg)
+<use ./04_Results/fig14.jpg>
+Package pdftex.def Info: ./04_Results/fig14.jpg  used on input line 114.
+(pdftex.def)             Requested size: 252.0pt x 179.90712pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./04_Results/fig15.jpg, id=51, 239.19452pt x 168.20363pt>
+File: ./04_Results/fig15.jpg Graphic file (type jpg)
+<use ./04_Results/fig15.jpg>
+Package pdftex.def Info: ./04_Results/fig15.jpg  used on input line 121.
+(pdftex.def)             Requested size: 252.0pt x 177.2119pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package caption Warning: \label without proper reference on input line 115.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig14' on page 6 undefined on input line 132.
+
+
+Package caption Warning: \label without proper reference on input line 122.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig15' on page 6 undefined on input line 132.
+
+[6 <./04_Results/fig10.jpg> <./04_Results/fig11.jpg> <./04_Results/fig12.jpg>]) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./05_Conclusions/Conclusions.tex) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./06_Acknowledgement/Acknowledgement.tex) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.bbl [7 <./04_Results/fig14.jpg> <./04_Results/fig15.jpg>]) [8
+
+] (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 20746 strings out of 481239
- 429254 string characters out of 5920377
- 694158 words of memory out of 5000000
- 35599 multiletter control sequences out of 15000+600000
- 652605 words of font info for 162 fonts, out of 8000000 for 9000
+ 20913 strings out of 481239
+ 434535 string characters out of 5920377
+ 697913 words of memory out of 5000000
+ 35740 multiletter control sequences out of 15000+600000
+ 653712 words of font info for 163 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,64p,495b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,88p,499b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Final.pdf (5 pages, 228173 bytes).
+Output written on "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.pdf" (8 pages, 935110 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

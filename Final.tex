@@ -1,14 +1,17 @@
 \documentclass[10pt,journal]{IEEEtran}
 
-\def\bframe#1\eframe{\begin{frame}#1\end{frame}}
-%para la tabla
+\def\bframe#1\eframe{\begin{frame}#1\end{frame}} %para la tabla
+
 \usepackage{siunitx,booktabs,enumitem,array,colortbl,nicematrix}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 \usepackage{amsmath,amsfonts,amssymb}
+
 \usepackage{graphicx}
+\usepackage{float} %posicion exacta para las fotos
+
 \usepackage{subcaption}
 \usepackage{framed}
 \usepackage[noadjust]{cite} %citas agrupadas
@@ -24,7 +27,7 @@
 \usepackage{nomencl}
 \makenomenclature
 
-\usepackage{subfiles} % Best loaded last in the preamble
+\usepackage{subfiles}
 
 \markboth{Journal of Power Sources}{} %titulo pagina
 \title{Analysis of structural damage on the struck ship under side collision scenario}
@@ -75,7 +78,7 @@ Collision scenario; Finite element analysis (FEA); Hull con.guration; Material p
 
 \section{Introduction}
 
-\subfile{./Introduction/Introduction.tex}
+\subfile{./01_Introduction/Introduction.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -84,7 +87,7 @@ Collision scenario; Finite element analysis (FEA); Hull con.guration; Material p
 
 \section{Collision phenomenon and material behaviour}
 
-\subfile{./Collision/Collision.tex}
+\subfile{./02_Collision/Collision.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -93,15 +96,15 @@ Collision scenario; Finite element analysis (FEA); Hull con.guration; Material p
 
 \section{Defined collision scenario and numerical calculation}
 
-\subfile{./Defined/Defined.tex}
+\subfile{./03_Defined/Defined.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%Results%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Results and discussion }
+\section{Results and discussion}
 
-\subfile{./Results/Results.tex}
+\subfile{./04_Results/Results.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -109,7 +112,7 @@ Collision scenario; Finite element analysis (FEA); Hull con.guration; Material p
 
 \section{Conclusions}
 
-\subfile{./Conclusions/Conclusions.tex}
+\subfile{./05_Conclusions/Conclusions.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -118,7 +121,7 @@ Collision scenario; Finite element analysis (FEA); Hull con.guration; Material p
 
 \section*{Acknowledgement} 
 
-\subfile{./Acknowledgement/Acknowledgement.tex}
+\subfile{./06_Acknowledgement/Acknowledgement.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

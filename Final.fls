@@ -354,10 +354,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmrc8t.tfm
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Introduction.tex
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Introduction.tex
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Collision.tex
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Collision.tex
+INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./Introduction/Introduction.tex
+INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./Introduction/Introduction.tex
+INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./Collision/Collision.tex
+INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./Collision/Collision.tex
 OUTPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
@@ -382,14 +382,16 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stix/t1-stixgeneral.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stix/t1-stixgeneral.tfm
 INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.nls
 INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.nls
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Defined.tex
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Defined.tex
+INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./Defined/Defined.tex
+INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./Defined/Defined.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Results.tex
 INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Results.tex
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Acknowledgement.tex
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Acknowledgement.tex
+INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./Conclusions/Conclusions.tex
+INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./Conclusions/Conclusions.tex
+INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./Acknowledgement/Acknowledgement.tex
+INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./Acknowledgement/Acknowledgement.tex
 INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.bbl
 INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.bbl
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf

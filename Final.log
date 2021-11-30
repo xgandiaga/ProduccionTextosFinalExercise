@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.21)  30 NOV 2021 14:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.21)  30 NOV 2021 14:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -686,7 +686,7 @@ Underfull \hbox (badness 1622) in paragraph at lines 69--71
 []\T1/ptm/b/it/9 Index Terms\T1/ptm/b/n/9 ---Collision sce-nario; Fi-nite el-e-ment anal-y-sis
  []
 
-(/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Introduction.tex) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Collision.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./Introduction/Introduction.tex) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./Collision/Collision.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
@@ -698,17 +698,17 @@ Overfull \hbox (3.37334pt too wide) in paragraph at lines 56--68
 [] 
  []
 
-) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Defined.tex [2]) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Results.tex [3]) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Acknowledgement.tex) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.bbl [4]) [5] (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.aux) ) 
+) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./Defined/Defined.tex [2]) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Results.tex [3]) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./Conclusions/Conclusions.tex) [4] (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./Acknowledgement/Acknowledgement.tex) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.bbl) [5] (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.aux) ) 
 Here is how much of TeX's memory you used:
- 20734 strings out of 481239
- 430708 string characters out of 5920377
+ 20750 strings out of 481239
+ 431725 string characters out of 5920377
  694158 words of memory out of 5000000
- 35597 multiletter control sequences out of 15000+600000
+ 35599 multiletter control sequences out of 15000+600000
  652605 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,64p,499b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,64p,499b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.pdf" (5 pages, 226711 bytes).
+Output written on "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.pdf" (5 pages, 228173 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  68 compressed objects within 1 object stream

@@ -1,14 +1,14 @@
 \documentclass[10pt,journal]{IEEEtran}
 
 \def\bframe#1\eframe{\begin{frame}#1\end{frame}}
-
+%para la tabla
+\usepackage{siunitx,booktabs,enumitem,array,colortbl,nicematrix}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 \usepackage{amsmath,amsfonts,amssymb}
 \usepackage{graphicx}
-\usepackage{booktabs}
 \usepackage{subcaption}
 \usepackage{framed}
 \usepackage[noadjust]{cite} %citas agrupadas
@@ -23,6 +23,8 @@
 
 \usepackage{nomencl}
 \makenomenclature
+
+\usepackage{subfiles} % Best loaded last in the preamble
 
 \markboth{Journal of Power Sources}{} %titulo pagina
 \title{Analysis of structural damage on the struck ship under side collision scenario}
@@ -69,250 +71,55 @@ Collision scenario; Finite element analysis (FEA); Hull con.guration; Material p
 
 \end{IEEEkeywords}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%INTRODUCTION%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Introduction}
 
-Impact can be described as an applied high-magnitude load in short-time period. Involved objects that undergo this load susceptible to experience failure as most of instruments are 
-designed to withstand gradual energy and load. This statement explicitly clarify the negative effect of impact phenomenon which closely related with failures and casualties. 
-In naval architecture field, this load was taken seriously after catastrophe of Exxon Valdez which massively contributed to destruction of Alaska's water territory, after received impact load in form of grounding. 
-In other case, remarkable human life losses happened as anticipation of pas­senger evacuation in tragedy of the Titanic could not be fulfilled in event of collision impact. 
-Efforts to increase safety have been conducted in various ways, including in calculation method to predict casualties on involved objects. Concept of collision energy was introduced by Minorsky \cite{minorsky1958analysis} 
-in 1959 who concerned regarding safety of nuclear reactor on ship. His for­mula was followed by analytical concept of collision by Zhang \cite{zhang1999mechanics}. 
-Even though the concept was simplified, but it was considered useful to estimate ship positions during collision. Recent development of ship collision was expanded into collision between structure and iceberg by Liu and Amdahl \cite{liu2010new}. 
-The concept of contact between two entities by Stronge \cite{coaplen2004work} was developed analytically and the results was compared with finite element simulation. 
+\subfile{Introduction.tex}
 
-As other physical phenomenon, numerous influences which come from internal or external parts can affect the result of impact between two entities or even with more subjects. 
-In this paper, influence of structural configuration and mechanical properties of material were taken into consideration as applied parameters which were included in the internal parts. 
-Double hull size with different width represented structure configuration, while material properties took strength characteristic, strain behaviour, and hardening parameter as selected parameters. 
-Structural responses, including energy, force, and damage were evaluated based on applied parameters. 
-Contribution of applied parameter would be compared in order to obtain information regarding influence level to the observed responses on the struck ship. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%Collision%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Collision phenomenon and material behaviour}
 
-The impact phenomenon may occur in several forms, espe­cially in marine and ocean engineering. As briefly described in previous section, collision is example of impact phenomenon in the mentioned field. 
-Remarkable damages and wide range of casualties make involved parties to take collision load into calculation for their design. 
-This condition encourages researchers to expand their study in impact engineering to marine and ocean fields with ship is main object in their studies. 
-Several researches have been addressed for different ship types, including bulk carrier \cite{ozguc2005comparative}, tanker \cite{haris2013analysis,bae2016numerical}, barge \cite{leheta2014finite}, and passenger vessel \cite{prabowo2016evaluating,prabowo2016energy,prabowo2017analysis,prabowo2017effects}. 
-Researches in collision have dominated by tanker in order to reduce possibility of oil spill, for instance by Yip et al. \cite{yip2011effectiveness}, and developed by several methods. 
-The analytical method was developed by Hong and Amdahl in 2008 to calcu­lated crushing resistance of web girders \cite{hong2008crushing}. Experiment was also conducted by Lehmann and Peschmann \cite{lehmann2002energy} 
-when they conducted collision test using NEDLLOYD 34 as the striking ship and AMATHA as the struck ship with cooperation of Germanischer Lloyd in 2002. After that empirical formula was used by Ozguc et al. \cite{ozguc2005comparative} 
-when they used modified Minorsky formula to estimate internal energy based on damage pattern. Improvement of energy formula was taken into consideration by Bae et al. \cite{bae2016study}
-as they used proposed energy formula by Zhang (Eqs. (1)–(3)). This formula is more speci.c than Minorsky as given in Eqs. (4) and (5) \cite{minorsky1958analysis}, and Woisin in Eq. (6) \cite{woisin1979design} as energy can be calculated based on different damage pattern. 
-The damage modes of some basic structural element had been investigated by several authors \cite{paik1995ultimate,lu1990cutting,wierzbicki1993closed,simonsen1997ship,prabowo2017structural}, and the mean resistance is expressed in Eq. (7), and its relation with lateral indentation is described in Eq. (8). Kitamura 
-in 2002 introduced finite element method (FEM) approach in simulating collision phenomenon \cite{kitamura2002fem} which was followed with verification in method and setting of FEM \cite{wisniewski2003effect}. 
+\subfile{Collision.tex}
 
-%Nomenclature table
-\begin{table*}[!t]
-    \begin{framed}
-    {
-        \fontfamily{stix}\selectfont % select font nomenclature
-        \fontsize{10}{12}\selectfont % font 12 pt nomenclature
-        \nomenclature{$\alpha$}{exponent for Eq. (\ref{eq7}) with range 1.5–1.7}		
-        \nomenclature{$\beta$}{exponent for Eq. (\ref{eq7}) with range 0.3–0.5 with $\alpha + \beta =2$}  
-        \nomenclature{$\beta$}{hardening parameter}
-        \nomenclature{$\delta$}{lateral indentation (mm)}
-        \nomenclature{$\mathcal{E}$}{strain rate (s$^{-1}$)}
-        \nomenclature{$t_N$}{damage thickness of striking ship (m)}
-        \nomenclature{$t_n$}{damage thickness of struck ship (m)}
-        \nomenclature{$t_s$}{side shell thickness (cm)}
-
-        \printnomenclature
-    }
-    \end{framed}
-\end{table*}
-
-%ECUATIONS
-\begin{flalign} 
-    &E=0.77 \varepsilon_{c} \sigma_{0} R_{T}& \label{eq1}  \\[12pt]
-    &E=3.50\left(\frac{t}{d}\right)^{0.67} \sigma_{0} R_{T}& \label{eq2} \\[12pt]
-    &E=3.21\left(\frac{t}{l}\right)^{0.6} \sigma_{0} R_{T}& \label{eq3} \\[12pt]
-    &E=47.2 R_{T}+32.7& \label{eq4} \\[12pt]
-    &R_{T}=\sum P_{N} L_{N} T_{N}+\sum P_{n} L_{n} T_{n}& \label{eq5} \\[12pt]
-    &E=47.2 R_{T}+0.5 \sum\left(h . t_{s}^{2}\right)&  \label{eq6} \\[12pt]
-    &F_{m}=D_{1} \sigma_{0} t^{\alpha} c^{\beta}& \label{eq7} \\[12pt]
-    &F_{p}=D_{2} \sigma_{0} t \delta& \label{eq8}
-\end{flalign}
-
-These researches are classified in large-analyses as ships are used as observation object. Smaller involved objects was reviewed in crash simulation by finite element analysis \cite{abdel2013frontal} 
-and oblique impact scenario of thin-walled tube \cite{manikandaraja2016numerical}. 
-In collision study, damage is evaluated which directly receives influence from applied material on its structure or construction. Formulation of material characteristic was addressed in term of hardening parameter \cite{krieg1976implementation}
-as in isotropic hardening, the center of the yield surface is fixed but the radius is a function of the plastic strain, strain rate of steel influences yield stress of mild steel which is well known very sensitive to the strain rate 
-\cite{jones1993criteria}, and failure, for example as introduced by Jones and Wierzbicki, there are three failure modes that can be experienced by material in experiencing certain load \cite{jones2011structural}. 
-These concepts were implemented in present work to observe behaviour of the target object when encountered impact load in form of side collision with other ship. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-Table 1 
-Configurations of the struck and striking ships. 
-
-Characteristic Struck – Passenger ship  Striking – Cargo ship 
-Length over all (m) 85.92 144.50 
-Breadth moulded (m) 15.00 19.80 
-Design draft (m) 4.30 5.60 
-Depth (m) 10.40 10.20 
-Frame spacing (m) 0.60 ­
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%Defined%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Defined collision scenario and numerical calculation}
 
-This section presented scenario model for collision simulation. 
-Scenario was defined including involved ships and configuration during impact. Setting and instrument for numerical calculation was described in following paragraph. 
+\subfile{Defined.tex}
 
-\subsection{Geometry of involved ships}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-This work considered 85 m passenger ship as the struck ship or it would be the target of penetration by other ship. 
-In other hand, larger cargo ship with size 144 m in length was selected to be the striking ship or the ship that would penetrate the struck ship. 
-The detail dimension for both ships are presented in Table 1. Ship models of the struck and striking ships are presented in Fig. 1. 
-As briefly stated in previous section, the struck ship had different structural configuration on side part of its hull. Double hull spaces with 1.5 m and 3.5 m in width were used in the analyses. 
-The illustration and scantling data of the struck ship are presented in Figs. 2 and 3. 
-
-\subsection{Collision scenario}
-
-Side collision was selected to be implemented as fundamental scenario in present work. 
-In this situation, the striking ship penetrated side hull of the struck ship with coming angle 90 degrees or in perpendicular position. 
-Main parameters were taken from structural level as different double hull spaces of the struck ship would be the target, and mechanical character­istic and configuration, including strength magnitude, 
-failure strain, and hardening type had been selected as parameters in material level. Detail description regarding these configurations are presented consecutively in Table 2. 
-
-Image
-
-Fig. 1 Involved ships for collision analysis: (a) struck ship, and (b) striking ship. 
-
-Image
-
-Fig. 2 Configurations of double hull structure: (a) 1.5 m and (b) 3.5 m. 
-
-\subsection{Setting for numerical calculation}
-
-The numerical calculation would be conducted by ANSYS LS­DYNA \cite{ansys2017user} to perform defined collision scenario and produce structural behaviour during and after collision. 
-In this process, the struck ship was defined as deformable structure, and rigid­body characteristic was applied in the striking ship. 
-On both of models, plastic-kinematics material which the yield criterion is presented in Eqs. (9) and (10), was implemented together with element formulation Belytschko-Tsay. 
-This formulation was considered as it was evidenced by previous author that this formulation type could produce faster results than other options in simulation setting \cite{bae2016study}. 
-Meshing size for each ship was given different treatment. The struck ship which was defined as deformable structure, was given meshing size according to rec­ommendation of Tornqvist and Simonsen \cite{toernqvist2004safety}
-as well as Alsos and Amdahl \cite{alsos2007resistance}, who indicated that in order to capture local deformation pattern, the size should be given within range of the element-length-to-thickness (ELT) ratio 5–10.
-
-
-%%Ecuations
-\begin{flalign}
-    &\sigma_{y} =\left[1+\left(\frac{\varepsilon}{C}\right)^{\frac{1}{P}}\right]\left(\sigma_{0}+\beta E_{p} \varepsilon_{p}^{e f f}\right)& \label{eq9} \\[12pt]
-    &E_{p} =\frac{E_{\mathrm{tan}} E}{E-E_{\mathrm{tan}}}& \label{eq10}
-\end{flalign}
-
-Image
-
-Fig. 3 Structure of the struck ship. Side shell is removed to show transverse and longitudinal components. 
-
-Table 2 Detail of scenario models. 
-Parameters  Impact scenario model  
-Structural  Double hull  Space width (m)  1.50  
-3.50  
-
-Material  Strength  Yield – Ultimate  180–325  
-strengths (MPa)  205–380  
-430–605  
-480–800  
-Failure  Failure strain  0.1  
-0.2  
-0.3  
-Yield surface  Hardening value  0  
-0.5  
-1  
-
-
-The struck ship was applied with size 80–100 mm, while the striking ship which had rigid characteristic, larger mesh with 300–700 mm in size was applied on its model. 
-Failure on the struck ship was predicted based on applied material behaviour with strain-dependent characteristic was the main influence on failure mode. 
-The involved objects were built using steel material and on contact area friction between steels was taken into consideration. Therefore friction coefficient between mild steel was applied in the analyses. 
-In the finite element analysis, displacement of the struck ship was set to be fixed at the centre-line, and fixation was applied on all transverse frame and longitudinal deck in the end of model. 
-In this location, axial displacements are restrained. The striking ship, in other hand, moved to the designated target points as presented in Fig. 4 with implemented velocity 12 knots or 6.17 m/s in SI unit. 
-All defined scenarios were processed on high-performance computer with 4th Generation Intel Core i7-4790 Processor 4.00 GHz, 16 GB RAM. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%Results%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Results and discussion }
 
-In this section, calculation results by numerical simulation would be presented. Discussion was presented based on each of applied configurations. 
-Several responses on the struck ship was described and evaluated regarding influence degree of proposed parameters to the results. 
+\subfile{Results.tex}
 
-\subsection{Double hull size}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Safety standard of a ship against various forms of impact load (e.g. collision and grounding) can be evaluated from condition of the inner hull after resisting such damage. 
-Breach of the inner hull can be considered fatal since damage occurs not only on ship structure, but also already reach ship cargo. Calculation results based on different hull configurations are presented in Figs. 5 and 6. 
-Internal energy in these graphs are defined as energy that is needed to plastically deform or even destroy the involved structures in impact. 
-In this case, the struck ship as the deformable object is observed. Energy to deform side hull with narrower space was indicated higher as both hulls (outer and inner) were significantly damaged by the striking ship during penetration. 
-Indication of higher internal energy is not solely dictated a structural configuration has better resistance against impact load. 
-Crushing force in the figures is defined as force fluctuation during destruction of the involved objects take place by certain impact load. 
-The force for wider space on the struck ship was observed go down in the end of collision process as the destruction was focussed on the outer hull. Major deformation or even hole on the inner hull could be 
-avoided as large space was provided by double hull with size
-
-Fig. 4 Illustration of side collision. Bullets highlight location of pointed components. 
-Fig.5 Crushing force and internal energy for double hull configuration 1.50m.
-Fig.6 Crushing force and internal energy for double hull configuration 3.50m.
- 
-3.5 m in width. Contrast with this situation, the narrower dou-ble hull (1.5 m in width) showed rising trend line as penetration went further. 
-This situation addressed the situation of the inner hull of this hull was slowly deformed plastically. Illustration of this phenomenon is presented in Figs. 7 and 8 for both hulls. 
-The presented contours in these figures are von Mises stress which represent failure stress. In 1.5 m double hull, stress on the inner hull was found distributed on the area of penetrated hulls. 
-Stress concentration was clearly indicating failure if pen­etration was continued on this location. 
-Stress on inner was widely distributed on the inner hull for the larger double hull. This hull size provided adequate time during penetration to deliver the stress to other structural components. 
-Initial conclusion based on this discussion that narrower double hull space more susceptible to failure during collision. 
-Therefore, double hull with space 1.5 m would be used in further analyses and simulations accounting for material configurations. 
-
-\subsection{Strength characteristic}
-
-Material is inseparable element in structural analysis. In this work, this parameter is taken into consideration with deploying material with different strength magnitude. 
-The energy results of this study indicated that the internal energy was equally perpendicular with magnitude of yield and ultimate strength. 
-Material with higher strength needed more energy to be destroyed during penetration. Difference in yield strength between the first and second materials was found 12\% and internal energy introduced 12\% distinction. 
-The third and fourth material showed difference 50 MPa in term of yield strength with energy comparison between both materials indicated 27\% discrepancy. Between the first and second materials, 
-
-Fig. 7 Damage pattern on the double hull structure with space 1.50 m: (a) outer hull, and (b) inner hull. 
-Fig. 8 Damage pattern on the double hull structure with space 3.50 m: (a) outer hull, and (b) inner hull. 
-Fig. 9 Internal energy for different applied material strength on the double hull structure. 
-Fig. 10 Characteristic of crushing force on the double hull structure with different strengths.
-
-
-Fig.12 Effect of failure strain constant to internal energy during ship collision. 
-
-Difference was relative lower than the third and fourth materials, that contribution of tensile strength was taken into consideration as the third and fourth materials had bigger disparity. 
-Behaviour of crushing force also provided good correlation since higher material strength, higher stress that would be experienced. These results are presented in Figs. 9 and 10, consecutively. 
-Damage extents in Fig. 11 were presented by Tresca stress indicated that the higher strength would reduce casualties on the inner hull after collision process. 
-This material was proven provide better resistance for side hull against collision by the striking ship. However, attention should be paid in term of material treatment. 
-Higher strength tends to need more costly treatment in building and repairing processes which lead to increase of maintenance cost. 
-
-\subsection{Failure strain}
-
-In analysis using strain-dependent material to predict failure pattern on the involved objects, it was considered important to evaluate how far failure strain affected calculation results. 
-Three different strain constants were applied on the deformable structure. 
-Calculation results in Fig. 12 indicated that the internal energy was gradually increasing for the proposed strain constants. 
-The target structure was shown better strain capability during penetration and made the structure was harder to experience failure. Illustration in Fig. 13 was presented wide area with was wrinkled as effect 
-of collision load in structure with strain constant 0.3. Compared with the smallest constant which the inner hull was successfully breached and tearing was found that the striking ship cleanly tore the both hulls, 
-the strain constant 0.3 delivered better capability to resist penetration by the striking ship. 
-Benchmarking study can be considered as good method to estimate reasonable strain constant for applied material properties in analysis. 
-
-Fig.14 Internal energy for proposed assumption of yield surface. Significance is not found on theresults. 
-Fig.15 Crushing force during penetration by the striking ship with different assumed yield surfaces.
-
-\subsection{Hardening value}
-
-Hardening was taken into consideration to observe different assumption in position of yield surface during penetration. 
-Kinematic hardening with constant 0 indicates that the radius of the yield surface is fixed but the center translates in the direction of the plastic strain, which means it can be move as translated direction of plastic strain. 
-In opposite of the first assumption, if the yield surface is fixed and works as function of the plastic strain, this definition is called isotropic hardening with constant 1. 
-The transition constant 0.5 was considered in the analysis to provide intermediary comparison for kinematic and isotropic results. 
-In term of internal energy (Fig. 14), significant difference was unlikely found for all proposed assumptions. Trend line and value were also showing similarity in term of crushing force as presented in Fig. 15. 
-Both responses indicated that isotropic hardening produced higher results than kinematic hardening with no remarkable characteristic. Results of the transition value 0.5 was found between kinematic and isotropic magnitudes. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%Conclusions%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Conclusions}
 
-This work presented a study on structural and material aspects of double hull passenger ship as the struck ship against certain impact phenomenon. 
-Collision with the striking ship was taken into consideration in this study with two ships involved in the proposed scenario. Discussion was initiated on structural aspect, which two different double hull sizes were compared. 
-Results indicated that narrower the distance between the outer and inner hulls would deliver more significant effect to inner hull which could harm cargo safety. 
-Implementation of wider double was considered good option to increase safety, but capacity of the ship would be reduced as consequences. 
-Double hull with space 1.5 m was used in further collision analysis with different material configurations were applied. Strength characteristic was concluded deliver the most significant effect to the calculation results. 
-Response of energy and force during collision supported this argument. Implementation of high strength material can be implemented on the side hull to give better resistance against collision load. 
-However, treatment of this material should be given serious attention as remarkable treatment cost may occur. Failure strain in other hand addressed gradual effect to internal energy as higher stain constant was used in analyses. 
-Larger strain constant made the struck ship experienced wrinkle on the area near contact surface. The structure was also found harder to be torn by the striking ship. 
-Assumption in yield surface was represented by hardening parameter, which was considered contribute the lowest effect to the calculation results. 
-This study can be reasonable reference in applying material behaviour for impact analysis, especially for marine structures under collision and grounding. 
-Further considerations in conducting material testing and laboratory experiment for nonlinear and large scale analyses can be performed to increase accuracy of material property and behaviour as they are highly encouraged by the authors. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%Acknowledgement%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section*{Acknowledgement} 
 
-This work is successfully presented and published with support from BK21 plus MADEC Human Research Development Group, Republic of Korea. 
-The gratitude is offered to Teguh Putranto from Institute Technology of Sepuluh Nopember for providing guidance in the FEA. 
+\subfile{Acknowledgement}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \bibliographystyle{IEEEtran}
 \bibliography{references.bib}

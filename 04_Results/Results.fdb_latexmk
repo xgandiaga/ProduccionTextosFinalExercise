@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1638287875 "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/04_Results/Results.tex" "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/04_Results/Results.pdf" "Results" 1638287876
+["pdflatex"] 1638288482 "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/04_Results/Results.tex" "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/04_Results/Results.pdf" "Results" 1638288482
   "/etc/texmf/web2c/texmf.cnf" 1621581006 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/04_Results/Results.aux" 1638287876 3414 d67f9e382977b5bf810c58aed6ac6ab6 ""
-  "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/04_Results/Results.tex" 1638287875 9051 c3474802d91d791fa62950b3dd3b28a0 ""
+  "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/04_Results/Results.aux" 1638288482 3414 d67f9e382977b5bf810c58aed6ac6ab6 ""
+  "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/04_Results/Results.tex" 1638288481 9062 3a73c2b8e8a8d4933f4389ce23e4560d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -167,8 +167,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1621581049 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1621581070 8264392 e8e20f3ccf94a255e61c5cfc460e83a7 ""
-  "04_Results/Results.aux" 1638287876 3414 d67f9e382977b5bf810c58aed6ac6ab6 "pdflatex"
-  "04_Results/Results.tex" 1638287875 9051 c3474802d91d791fa62950b3dd3b28a0 ""
+  "04_Results/Results.aux" 1638288482 3414 d67f9e382977b5bf810c58aed6ac6ab6 "pdflatex"
+  "04_Results/Results.tex" 1638288481 9062 3a73c2b8e8a8d4933f4389ce23e4560d ""
   "04_Results/fig10.jpg" 1638281372 31915 90105685e127a86d82ae18b421dd2c71 ""
   "04_Results/fig11.jpg" 1638281372 108897 f966518e49c4ed258e97cf60950ab2d1 ""
   "04_Results/fig12.jpg" 1638281372 35064 df60ccecce6240caaa177fa903acdedd ""
@@ -180,11 +180,11 @@
   "04_Results/fig7.jpg" 1638281374 52337 58e619da834ee7b7212374fcdda43d7b ""
   "04_Results/fig8.jpg" 1638281374 88285 c2b8bdba48c8d594b62ba5f5a651dbc6 ""
   "04_Results/fig9.jpg" 1638281374 35429 6953463b157bead6adbac2437db08104 ""
-  "Final.tex" 1638287805 5586 3c5884536cadefe49fbe0fe168960fae ""
+  "Final.tex" 1638288294 5586 3c5884536cadefe49fbe0fe168960fae ""
   (generated)
+  "04_Results/Results.nlo"
+  "04_Results/Results.pdf"
+  "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/04_Results/Results.pdf"
   "04_Results/Results.log"
   "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/04_Results/Results.log"
-  "04_Results/Results.pdf"
   "04_Results/Results.aux"
-  "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/04_Results/Results.pdf"
-  "04_Results/Results.nlo"

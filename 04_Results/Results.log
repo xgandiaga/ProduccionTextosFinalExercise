@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.21)  30 NOV 2021 16:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.21)  30 NOV 2021 17:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -710,9 +710,6 @@ Package pdftex.def Info: fig6.jpg  used on input line 24.
 (pdftex.def)             Requested size: 252.0pt x 163.73569pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Package caption Warning: \label without proper reference on input line 18.
 See the caption package documentation for explanation.
 
@@ -737,9 +734,6 @@ File: fig8.jpg Graphic file (type jpg)
 Package pdftex.def Info: fig8.jpg  used on input line 47.
 (pdftex.def)             Requested size: 252.0pt x 246.68668pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Package caption Warning: \label without proper reference on input line 41.
 See the caption package documentation for explanation.
 
@@ -761,33 +755,21 @@ File: fig9.jpg Graphic file (type jpg)
 <use fig9.jpg>
 Package pdftex.def Info: fig9.jpg  used on input line 69.
 (pdftex.def)             Requested size: 252.0pt x 187.14532pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 <fig10.jpg, id=18, 239.19452pt x 173.32008pt>
 File: fig10.jpg Graphic file (type jpg)
 <use fig10.jpg>
 Package pdftex.def Info: fig10.jpg  used on input line 76.
 (pdftex.def)             Requested size: 252.0pt x 182.60234pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 <fig11.jpg, id=19, 298.67337pt x 341.52371pt>
 File: fig11.jpg Graphic file (type jpg)
 <use fig11.jpg>
 Package pdftex.def Info: fig11.jpg  used on input line 83.
 (pdftex.def)             Requested size: 252.0pt x 288.15471pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 <fig12.jpg, id=20, 239.19452pt x 176.51788pt>
 File: fig12.jpg Graphic file (type jpg)
 <use fig12.jpg>
 Package pdftex.def Info: fig12.jpg  used on input line 91.
 (pdftex.def)             Requested size: 252.0pt x 185.97142pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package caption Warning: \label without proper reference on input line 70.
@@ -825,17 +807,11 @@ File: fig14.jpg Graphic file (type jpg)
 <use fig14.jpg>
 Package pdftex.def Info: fig14.jpg  used on input line 114.
 (pdftex.def)             Requested size: 252.0pt x 179.90712pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 <fig15.jpg, id=22, 239.19452pt x 168.20363pt>
 File: fig15.jpg Graphic file (type jpg)
 <use fig15.jpg>
 Package pdftex.def Info: fig15.jpg  used on input line 121.
 (pdftex.def)             Requested size: 252.0pt x 177.2119pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Package caption Warning: \label without proper reference on input line 115.
 See the caption package documentation for explanation.

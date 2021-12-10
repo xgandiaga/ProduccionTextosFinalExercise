@@ -1,8 +1,32 @@
-\nomenclatureentry{a$\alpha$@[{$\alpha$}]\begingroup exponent for Eq. (\ref{eq7}) with range 1.5–1.7\nomeqref {0}|nompageref}{3}
-\nomenclatureentry{a$\beta$@[{$\beta$}]\begingroup exponent for Eq. (\ref{eq7}) with range 0.3–0.5 with $\alpha + \beta =2$\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$\alpha$@[{$\alpha$}]\begingroup exponent for Eq. (\hyperref[eq7]{7}) with range 1.5–1.7\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$\beta$@[{$\beta$}]\begingroup exponent for Eq. (\hyperref[eq7]{7}) with range 0.3–0.5 with $\alpha + \beta =2$\nomeqref {0}|nompageref}{3}
 \nomenclatureentry{a$\beta$@[{$\beta$}]\begingroup hardening parameter\nomeqref {0}|nompageref}{3}
 \nomenclatureentry{a$\delta$@[{$\delta$}]\begingroup lateral indentation (mm)\nomeqref {0}|nompageref}{3}
-\nomenclatureentry{a$\mathcal{E}$@[{$\mathcal{E}$}]\begingroup strain rate (s$^{-1}$)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$\mathcal{E}$@[{$\mathcal{E}$}]\begingroup strain rate $(s^{-1})$\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$\mathcal{E}_{c}$@[{$\mathcal{E}_{c}$}]\begingroup critical rupture strain of the material         which is determined from where $\mathcal{E}_{c}=0.10(\mathcal{E}_{f} / 0.32)$         where $\mathcal{E}_{f}$ is the steel material ductility obtained in tensile test\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$\mathcal{E}_{P}^{e f f}$@[{$\mathcal{E}_{P}^{e f f}$}]\begingroup effective plastic strain\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$\sigma_{0}$@[{$\sigma_{0}$}]\begingroup flow stress of the material (MPa)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$\sigma_{o}$@[{$\sigma_{o}$}]\begingroup initial yield stress (Pa)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$\sigma_{y}$@[{$\sigma_{y}$}]\begingroup yield stress (Pa)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$C$@[{$C$}]\begingroup Cowper-Symonds strain rate parameters $(s^{-1})$\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$c$@[{$c$}]\begingroup cross-sectional length of a unit or the tearing length (mm)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$d$@[{$d$}]\begingroup average width of the plates in the crushed crosssection (mm)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$D_{1}$@[{$D_{1}$}]\begingroup coefficient related to the actual crushing or tearing configuration\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$D_{2}$@[{$D_{2}$}]\begingroup coefficient related to the impact position and the plate size\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$E$@[{$E$}]\begingroup Young’s modulus (Pa)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$E$@[{$E$}]\begingroup absorbed energy (MJ)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$E_{p}$@[{$E_{p}$}]\begingroup plastic hardening modulus (Pa)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$E_{t a n}$@[{$E_{t a n}$}]\begingroup Tangent modulus (Pa)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$F_{m}$@[{$F_{m}$}]\begingroup mean resistance (N)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$F_{p}$@[{$F_{p}$}]\begingroup resistance force (N)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$H$@[{$H$}]\begingroup height of rupture aperture in side shell (m)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$L$@[{$L$}]\begingroup critical tearing length (mm)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$L_{N}$@[{$L_{N}$}]\begingroup damage length of striking ship (m)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$L_{n}$@[{$L_{n}$}]\begingroup damage length of struck ship (m)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$P$@[{$P$}]\begingroup Cowper-Symonds strain rate parameters\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$P_{N}$@[{$P_{N}$}]\begingroup damage depth of striking ship (m)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$P_{n}$@[{$P_{n}$}]\begingroup damage depth of struck ship (m)\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{a$R_{T}$@[{$R_{T}$}]\begingroup destroyed material volume for both struck and striking ship/resistance factor (m3)\nomeqref {0}|nompageref}{3}
 \nomenclatureentry{a$t_N$@[{$t_N$}]\begingroup damage thickness of striking ship (m)\nomeqref {0}|nompageref}{3}
 \nomenclatureentry{a$t_n$@[{$t_n$}]\begingroup damage thickness of struck ship (m)\nomeqref {0}|nompageref}{3}
 \nomenclatureentry{a$t_s$@[{$t_s$}]\begingroup side shell thickness (cm)\nomeqref {0}|nompageref}{3}

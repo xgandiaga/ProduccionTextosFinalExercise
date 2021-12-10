@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.21)  10 DEC 2021 14:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.21)  10 DEC 2021 15:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.tex"
+**"/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final"
 (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
@@ -731,7 +731,7 @@ Package nomencl Info: Writing nomenclature file Final.nlo on input line 29.
 Package: subfiles 2020/02/14 v1.6 Multi-file projects (package)
  (/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
 Package: import 2009/03/23  v 5.1
-)) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.aux)
+)) (./Final.aux)
 \openout1 = `Final.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -792,7 +792,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 58.
 LaTeX Info: Redefining \pageref on input line 58.
 LaTeX Info: Redefining \nameref on input line 58.
- (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.out) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.out)
+ (./Final.out) (./Final.out)
 \@outlinefile=\write5
 \openout5 = `Final.out'.
 
@@ -813,19 +813,19 @@ Underfull \hbox (badness 1622) in paragraph at lines 73--75
 []\T1/ptm/b/it/9 Index Terms\T1/ptm/b/n/9 ---Collision sce-nario; Fi-nite el-e-ment anal-y-sis
  []
 
-(/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./01_Introduction/Introduction.tex) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./02_Collision/Collision.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(./01_Introduction/Introduction.tex) (./02_Collision/Collision.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+stix on input line 19.
  (/usr/share/texlive/texmf-dist/tex/latex/stix/t1stix.fd
 File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
-) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.nls)
-Overfull \hbox (3.37334pt too wide) in paragraph at lines 56--68
+) (./Final.nls)
+Overfull \hbox (3.37334pt too wide) in paragraph at lines 85--97
 [] 
  []
 
-) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./03_Defined/Defined.tex
+) (./03_Defined/Defined.tex
 <./03_Defined/fig1.jpg, id=107, 397.80478pt x 168.84319pt>
 File: ./03_Defined/fig1.jpg Graphic file (type jpg)
 <use ./03_Defined/fig1.jpg>
@@ -851,76 +851,77 @@ Package pdftex.def Info: ./03_Defined/fig3.jpg  used on input line 23.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2]) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./04_Results/Results.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3 <./03_Defined/fig1.jpg>]
-<./04_Results/fig4.jpg, id=184, 422.74753pt x 234.7176pt>
+[2] [3]) (./04_Results/Results.tex
+<./04_Results/fig4.jpg, id=182, 422.74753pt x 234.7176pt>
 File: ./04_Results/fig4.jpg Graphic file (type jpg)
 <use ./04_Results/fig4.jpg>
 Package pdftex.def Info: ./04_Results/fig4.jpg  used on input line 10.
 (pdftex.def)             Requested size: 252.0pt x 139.91837pt.
-<./04_Results/fig5.jpg, id=185, 238.55496pt x 154.77292pt>
+<./04_Results/fig5.jpg, id=183, 238.55496pt x 154.77292pt>
 File: ./04_Results/fig5.jpg Graphic file (type jpg)
 <use ./04_Results/fig5.jpg>
 Package pdftex.def Info: ./04_Results/fig5.jpg  used on input line 17.
 (pdftex.def)             Requested size: 252.0pt x 163.49878pt.
-<./04_Results/fig6.jpg, id=186, 239.19452pt x 155.41248pt>
+<./04_Results/fig6.jpg, id=184, 239.19452pt x 155.41248pt>
 File: ./04_Results/fig6.jpg Graphic file (type jpg)
 <use ./04_Results/fig6.jpg>
 Package pdftex.def Info: ./04_Results/fig6.jpg  used on input line 24.
 (pdftex.def)             Requested size: 252.0pt x 163.73569pt.
- [4 <./03_Defined/fig2.jpg> <./03_Defined/fig3.jpg> <./04_Results/fig4.jpg> <./04_Results/fig5.jpg>]
-<./04_Results/fig7.jpg, id=195, 397.80478pt x 118.9577pt>
+<./04_Results/fig7.jpg, id=187, 397.80478pt x 118.9577pt>
 File: ./04_Results/fig7.jpg Graphic file (type jpg)
 <use ./04_Results/fig7.jpg>
 Package pdftex.def Info: ./04_Results/fig7.jpg  used on input line 40.
 (pdftex.def)             Requested size: 252.0pt x 75.35759pt.
-<./04_Results/fig8.jpg, id=196, 303.15027pt x 296.75468pt>
+<./04_Results/fig8.jpg, id=188, 303.15027pt x 296.75468pt>
 File: ./04_Results/fig8.jpg Graphic file (type jpg)
 <use ./04_Results/fig8.jpg>
 Package pdftex.def Info: ./04_Results/fig8.jpg  used on input line 47.
 (pdftex.def)             Requested size: 252.0pt x 246.68668pt.
-<./04_Results/fig9.jpg, id=199, 238.55496pt x 177.15744pt>
+<./04_Results/fig9.jpg, id=191, 238.55496pt x 177.15744pt>
 File: ./04_Results/fig9.jpg Graphic file (type jpg)
 <use ./04_Results/fig9.jpg>
 Package pdftex.def Info: ./04_Results/fig9.jpg  used on input line 69.
 (pdftex.def)             Requested size: 252.0pt x 187.14532pt.
-<./04_Results/fig10.jpg, id=200, 239.19452pt x 173.32008pt>
+<./04_Results/fig10.jpg, id=192, 239.19452pt x 173.32008pt>
 File: ./04_Results/fig10.jpg Graphic file (type jpg)
 <use ./04_Results/fig10.jpg>
 Package pdftex.def Info: ./04_Results/fig10.jpg  used on input line 76.
 (pdftex.def)             Requested size: 252.0pt x 182.60234pt.
-<./04_Results/fig11.jpg, id=201, 298.67337pt x 341.52371pt>
+<./04_Results/fig11.jpg, id=193, 298.67337pt x 341.52371pt>
 File: ./04_Results/fig11.jpg Graphic file (type jpg)
 <use ./04_Results/fig11.jpg>
 Package pdftex.def Info: ./04_Results/fig11.jpg  used on input line 83.
 (pdftex.def)             Requested size: 252.0pt x 288.15471pt.
-<./04_Results/fig12.jpg, id=202, 239.19452pt x 176.51788pt>
+<./04_Results/fig12.jpg, id=194, 239.19452pt x 176.51788pt>
 File: ./04_Results/fig12.jpg Graphic file (type jpg)
 <use ./04_Results/fig12.jpg>
 Package pdftex.def Info: ./04_Results/fig12.jpg  used on input line 91.
 (pdftex.def)             Requested size: 252.0pt x 185.97142pt.
- [5 <./04_Results/fig6.jpg> <./04_Results/fig7.jpg> <./04_Results/fig8.jpg> <./04_Results/fig9.jpg>]
+ [4 <./03_Defined/fig1.jpg>]
+Underfull \vbox (badness 1005) has occurred while \output is active []
 
-LaTeX Warning: Hyper reference `fig13' on page 6 undefined on input line 107.
 
-<./04_Results/fig14.jpg, id=214, 239.19452pt x 170.76186pt>
+
+LaTeX Warning: Hyper reference `fig13' on page 5 undefined on input line 107.
+
+[5 <./03_Defined/fig2.jpg> <./03_Defined/fig3.jpg> <./04_Results/fig4.jpg> <./04_Results/fig5.jpg>]
+<./04_Results/fig14.jpg, id=217, 239.19452pt x 170.76186pt>
 File: ./04_Results/fig14.jpg Graphic file (type jpg)
 <use ./04_Results/fig14.jpg>
 Package pdftex.def Info: ./04_Results/fig14.jpg  used on input line 114.
 (pdftex.def)             Requested size: 252.0pt x 179.90712pt.
-<./04_Results/fig15.jpg, id=215, 239.19452pt x 168.20363pt>
+<./04_Results/fig15.jpg, id=218, 239.19452pt x 168.20363pt>
 File: ./04_Results/fig15.jpg Graphic file (type jpg)
 <use ./04_Results/fig15.jpg>
 Package pdftex.def Info: ./04_Results/fig15.jpg  used on input line 121.
 (pdftex.def)             Requested size: 252.0pt x 177.2119pt.
-[6 <./04_Results/fig10.jpg> <./04_Results/fig11.jpg> <./04_Results/fig12.jpg>]) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./05_Conclusions/Conclusions.tex) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./06_Acknowledgement/Acknowledgement.tex) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.bbl [7 <./04_Results/fig14.jpg> <./04_Results/fig15.jpg>]) [8
+) (./05_Conclusions/Conclusions.tex) [6 <./04_Results/fig6.jpg> <./04_Results/fig7.jpg> <./04_Results/fig8.jpg> <./04_Results/fig9.jpg>] (./06_Acknowledgement/Acknowledgement.tex
+Underfull \vbox (badness 5374) has occurred while \output is active []
 
-]
+ [7 <./04_Results/fig10.jpg> <./04_Results/fig11.jpg> <./04_Results/fig12.jpg> <./04_Results/fig14.jpg>]) (./Final.bbl) [8 <./04_Results/fig15.jpg>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
- (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.aux)
+ (./Final.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
 Package rerunfilecheck Info: File `Final.out' has not changed.
@@ -932,15 +933,15 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 24901 strings out of 481239
- 498403 string characters out of 5920377
- 787648 words of memory out of 5000000
+ 24895 strings out of 481239
+ 495426 string characters out of 5920377
+ 792648 words of memory out of 5000000
  39542 multiletter control sequences out of 15000+600000
  652605 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,88p,519b,872s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,88p,515b,827s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.pdf" (8 pages, 940495 bytes).
+Output written on Final.pdf (8 pages, 955818 bytes).
 PDF statistics:
  319 PDF objects out of 1000 (max. 8388607)
  275 compressed objects within 3 object streams

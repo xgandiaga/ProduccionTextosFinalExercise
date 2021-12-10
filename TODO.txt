@@ -1,5 +1,5 @@
 TODO
 
-TABLES + REFS TO TABLES
+Tables done except characteristics title in correct alignment
 
 SET IMAGES, adjust height

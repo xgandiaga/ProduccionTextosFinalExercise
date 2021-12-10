@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.21)  10 DEC 2021 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.21)  10 DEC 2021 17:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -968,8 +968,8 @@ LaTeX Warning: Citation `jones1993criteria' on page 1 undefined on input line 82
 LaTeX Warning: Citation `jones2011structural' on page 1 undefined on input line 82.
 
 
-Overfull \hbox (3.37334pt too wide) in paragraph at lines 87--99
-[] 
+Overfull \hbox (3.37334pt too wide) in paragraph at lines 89--100
+[][] 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -977,29 +977,29 @@ Overfull \hbox (3.37334pt too wide) in paragraph at lines 87--99
 ] [2
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
  (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/02_Collision/Collision.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
 Package rerunfilecheck Info: File `Collision.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 24725 strings out of 481239
- 493569 string characters out of 5920377
- 787521 words of memory out of 5000000
- 39485 multiletter control sequences out of 15000+600000
+ 24736 strings out of 481239
+ 493708 string characters out of 5920377
+ 787599 words of memory out of 5000000
+ 39496 multiletter control sequences out of 15000+600000
  637677 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,11n,77p,576b,725s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/02_Collision/Collision.pdf" (2 pages, 99573 bytes).
+Output written on "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/02_Collision/Collision.pdf" (2 pages, 99679 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream

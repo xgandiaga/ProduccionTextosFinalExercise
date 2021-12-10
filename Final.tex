@@ -25,10 +25,15 @@
 \usepackage{tabularx}
 \newcolumntype{d}[1]{D{ ,}{.}{#1}} %nuevo tipo de columna con decimales
 
+\usepackage{multicol}
 \usepackage{nomencl}
+\renewcommand*{\nompreamble}{\begin{multicols}{2}} %para el título del nomencl centrado
+\renewcommand*{\nompostamble}{\end{multicols}}
 \makenomenclature
 
 \usepackage{subfiles}
+
+
 
 \markboth{Journal of Power Sources}{} %titulo pagina
 \title{Analysis of structural damage on the struck ship under side collision scenario}

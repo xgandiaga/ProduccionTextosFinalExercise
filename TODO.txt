@@ -1,7 +1,5 @@
 TODO
 
-NOMENCLATURE
-
 TABLES + REFS
 
 SET IMAGES, adjust height

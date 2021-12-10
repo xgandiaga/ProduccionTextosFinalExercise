@@ -56,7 +56,9 @@ in 2002 introduced finite element method (FEM) approach in simulating collision 
         \nomenclature{$t_n$}{damage thickness of struck ship (m)}
         \nomenclature{$t_s$}{side shell thickness (cm)}
 
-        \printnomenclature
+        \renewcommand*{\nompreamble}{\begin{multicols}{2}}
+            \printnomenclature
+        \renewcommand*{\nompostamble}{\end{multicols}}
     }
     \end{framed}
 \end{table*}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.21)  10 DEC 2021 18:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.21)  10 DEC 2021 19:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -881,78 +881,84 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<fig1.jpg, id=19, 397.80478pt x 168.84319pt>
-File: fig1.jpg Graphic file (type jpg)
-<use fig1.jpg>
-Package pdftex.def Info: fig1.jpg  used on input line 9.
-(pdftex.def)             Requested size: 516.0pt x 219.0375pt.
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
+
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Hyper reference `fig1' on page 1 undefined on input line 28.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+
+ []
 
 <fig2.jpg, id=20, 369.66425pt x 501.4131pt>
 File: fig2.jpg Graphic file (type jpg)
 <use fig2.jpg>
-Package pdftex.def Info: fig2.jpg  used on input line 16.
+Package pdftex.def Info: fig2.jpg  used on input line 33.
 (pdftex.def)             Requested size: 252.0pt x 341.8133pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig3.jpg, id=21, 398.44434pt x 259.0208pt>
+<fig3.jpg, id=23, 398.44434pt x 259.0208pt>
 File: fig3.jpg Graphic file (type jpg)
 <use fig3.jpg>
-Package pdftex.def Info: fig3.jpg  used on input line 23.
+Package pdftex.def Info: fig3.jpg  used on input line 42.
 (pdftex.def)             Requested size: 252.0pt x 163.82027pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Hyper reference `table1' on page 1 undefined on input line 32.
+LaTeX Warning: Citation `ansys2017user' on page 1 undefined on input line 58.
 
 
-LaTeX Warning: Citation `ansys2017user' on page 1 undefined on input line 47.
+LaTeX Warning: Citation `bae2016study' on page 1 undefined on input line 61.
 
 
-LaTeX Warning: Citation `bae2016study' on page 1 undefined on input line 50.
+LaTeX Warning: Citation `toernqvist2004safety' on page 1 undefined on input line 62.
 
 
-LaTeX Warning: Citation `toernqvist2004safety' on page 1 undefined on input line 51.
+LaTeX Warning: Citation `alsos2007resistance' on page 1 undefined on input line 63.
 
 
-LaTeX Warning: Citation `alsos2007resistance' on page 1 undefined on input line 52.
+Underfull \vbox (badness 1005) has occurred while \output is active []
 
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-LaTeX Warning: Hyper reference `fig4' on page 1 undefined on input line 91.
+ </home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig2.jpg> </home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig3.jpg>]
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+LaTeX Warning: Hyper reference `fig4' on page 2 undefined on input line 102.
 
-] [2 </home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig1.jpg> </home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig2.jpg> </home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig3.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
+[2
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
  (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/Defined.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
 Package rerunfilecheck Info: File `Defined.out' has not changed.
 (rerunfilecheck)             Checksum: D36EA2AD6BD58B2A77489AA41402476B;197.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
  ) 
 Here is how much of TeX's memory you used:
- 24702 strings out of 481239
- 492854 string characters out of 5920377
- 787682 words of memory out of 5000000
- 39464 multiletter control sequences out of 15000+600000
+ 24696 strings out of 481239
+ 492786 string characters out of 5920377
+ 783758 words of memory out of 5000000
+ 39459 multiletter control sequences out of 15000+600000
  633269 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,10n,77p,572b,733s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,17n,77p,572b,736s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/Defined.pdf" (2 pages, 340089 bytes).
+Output written on "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/Defined.pdf" (2 pages, 294920 bytes).
 PDF statistics:
  107 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 86 compressed objects within 1 object stream
  12 named destinations out of 1000 (max. 500000)
- 52 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 47 words of extra memory for PDF output out of 10000 (max. 10000000)
 

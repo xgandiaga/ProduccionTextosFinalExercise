@@ -1,5 +1,7 @@
 TODO
 
+Spacing
+
 Tables done except characteristics title in correct alignment
 
 SET IMAGES, adjust height

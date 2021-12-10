@@ -4,19 +4,38 @@
 This section presented scenario model for collision simulation. 
 Scenario was defined including involved ships and configuration during impact. Setting and instrument for numerical calculation was described in following paragraph. 
 
-\begin{figure*}[h]
-    \centering
-    \includegraphics[width=\textwidth]{fig1.jpg}
-    \label{fig1}
-    \caption{Involved ships for collision analysis: (a) struck ship, and (b) striking ship.}
-\end{figure*}
+\subsection{Geometry of involved ships}
 
-\begin{figure}[h]
+This work considered 85 m passenger ship as the struck ship or it would be the target of penetration by other ship. 
+In other hand, larger cargo ship with size 144 m in length was selected to be the striking ship or the ship that would penetrate the struck ship. 
+\\
+
+\begin{table}[h]
+    \caption{Configurations of the struck and striking ships.}
+    \label{table1}
+    \begin{tabular}{llrlr}
+    \hline
+    Characteristics     &  & \begin{tabular}[c]{@{}r@{}}Struck\Tstrut\\ Passenger ship\Bstrut\end{tabular} &  & \begin{tabular}[c]{@{}r@{}}Striking\Tstrut\\ Cargo ship\Bstrut\end{tabular} \\ \hline
+    Length over all (m)\Tstrut &  & 85.92                                                           &  & 144.50                                                        \\
+    Breadth moulded (m) &  & 15.00                                                           &  & 19.80                                                         \\
+    Design draft (m)    &  & 4.30                                                            &  & 5.60                                                          \\
+    Depth (m)           &  & 10.40                                                           &  & 10.20                                                         \\
+    Frame spacing (m)\Bstrut   &  & 0.60                                                            &  & -                                                             \\ \hline
+    \end{tabular}
+\end{table}
+
+
+The detail dimension for both ships are presented in \hyperref[table1]{Table 1}. Ship models of the struck and striking ships are presented in \hyperref[fig1]{Fig. 1}.
+\\
+
+\begin{figure}[!h]
     \centering
     \includegraphics[width=\columnwidth]{fig2.jpg}
     \label{fig2}
     \caption{Configurations of double hull structure: (a) 1.5 m and (b) 3.5 m.}
 \end{figure}
+As briefly stated in previous section, the struck ship had different structural configuration on side part of its hull. Double hull spaces with 1.5 m and 3.5 m in width were used in the analyses. 
+The illustration and scantling data of the struck ship are presented in \hyperref[fig2]{Fig. 2} and \hyperref[fig3]{Fig. 3}. 
 
 \begin{figure}[h]
     \centering
@@ -24,14 +43,6 @@ Scenario was defined including involved ships and configuration during impact. S
     \label{fig3}
     \caption{Structure of the struck ship. Side shell is removed to show transverse and longitudinal components.}
 \end{figure}
-
-\subsection{Geometry of involved ships}
-
-This work considered 85 m passenger ship as the struck ship or it would be the target of penetration by other ship. 
-In other hand, larger cargo ship with size 144 m in length was selected to be the striking ship or the ship that would penetrate the struck ship. 
-The detail dimension for both ships are presented in \hyperref[table1]{Table 1}. Ship models of the struck and striking ships are presented in \hyperref[fig1]{Fig. 1}. 
-As briefly stated in previous section, the struck ship had different structural configuration on side part of its hull. Double hull spaces with 1.5 m and 3.5 m in width were used in the analyses. 
-The illustration and scantling data of the struck ship are presented in \hyperref[fig2]{Fig. 2} and \hyperref[fig3]{Fig. 3}. 
 
 \subsection{Collision scenario}
 

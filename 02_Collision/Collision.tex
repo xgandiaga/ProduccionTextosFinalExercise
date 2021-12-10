@@ -1,19 +1,8 @@
 \documentclass[../Final.tex]{subfiles}
 \begin{document}
-The impact phenomenon may occur in several forms, espe­cially in marine and ocean engineering. As briefly described in previous section, collision is example of impact phenomenon in the mentioned field. 
-Remarkable damages and wide range of casualties make involved parties to take collision load into calculation for their design. 
-This condition encourages researchers to expand their study in impact engineering to marine and ocean fields with ship is main object in their studies. 
-Several researches have been addressed for different ship types, including bulk carrier \cite{ozguc2005comparative}, tanker \cite{haris2013analysis,bae2016numerical}, barge \cite{leheta2014finite}, and passenger vessel \cite{prabowo2016evaluating,prabowo2016energy,prabowo2017analysis,prabowo2017effects}. 
-Researches in collision have dominated by tanker in order to reduce possibility of oil spill, for instance by Yip et al. \cite{yip2011effectiveness}, and developed by several methods. 
-The analytical method was developed by Hong and Amdahl in 2008 to calcu­lated crushing resistance of web girders \cite{hong2008crushing}. Experiment was also conducted by Lehmann and Peschmann \cite{lehmann2002energy} 
-when they conducted collision test using NEDLLOYD 34 as the striking ship and AMATHA as the struck ship with cooperation of Germanischer Lloyd in 2002. After that empirical formula was used by Ozguc et al. \cite{ozguc2005comparative} 
-when they used modified Minorsky formula to estimate internal energy based on damage pattern. Improvement of energy formula was taken into consideration by Bae et al. \cite{bae2016study}
-as they used proposed energy formula by Zhang (Eqs. (\hyperref[eq1]{1})–(\hyperref[eq3]{3})). This formula is more speci.c than Minorsky as given in Eqs. (\hyperref[eq4]{4}) and (\hyperref[eq5]{5}) \cite{minorsky1958analysis}, and Woisin in Eq. (\hyperref[eq6]{6}) \cite{woisin1979design} as energy can be calculated based on different damage pattern. 
-The damage modes of some basic structural element had been investigated by several authors \cite{paik1995ultimate,lu1990cutting,wierzbicki1993closed,simonsen1997ship,prabowo2017structural}, and the mean resistance is expressed in Eq. (\hyperref[eq7]{7}), and its relation with lateral indentation is described in Eq. (\hyperref[eq8]{8}). Kitamura 
-in 2002 introduced finite element method (FEM) approach in simulating collision phenomenon \cite{kitamura2002fem} which was followed with verification in method and setting of FEM \cite{wisniewski2003effect}. 
 
 %Nomenclature table
-\begin{table*}[!t]
+\begin{table*}[t]
     \begin{framed}
     {
         \fontfamily{stix}\selectfont % select font nomenclature
@@ -63,6 +52,27 @@ in 2002 introduced finite element method (FEM) approach in simulating collision 
     \end{framed}
 \end{table*}
 
+The impact phenomenon may occur in several forms, espe­cially in marine and ocean engineering. As briefly described in previous section, collision is example of impact phenomenon in the mentioned field. 
+Remarkable damages and wide range of casualties make involved parties to take collision load into calculation for their design. 
+This condition encourages researchers to expand their study in impact engineering to marine and ocean fields with ship is main object in their studies. 
+
+
+Several researches have been addressed for different ship types, including bulk carrier \cite{ozguc2005comparative}, tanker \cite{haris2013analysis,bae2016numerical}, barge \cite{leheta2014finite}, and passenger vessel \cite{prabowo2016evaluating,prabowo2016energy,prabowo2017analysis,prabowo2017effects}. 
+
+
+Researches in collision have dominated by tanker in order to reduce possibility of oil spill, for instance by Yip et al. \cite{yip2011effectiveness}, and developed by several methods. 
+The analytical method was developed by Hong and Amdahl in 2008 to calcu­lated crushing resistance of web girders \cite{hong2008crushing}. Experiment was also conducted by Lehmann and Peschmann \cite{lehmann2002energy} 
+when they conducted collision test using NEDLLOYD 34 as the striking ship and AMATHA as the struck ship with cooperation of Germanischer Lloyd in 2002. After that empirical formula was used by Ozguc et al. \cite{ozguc2005comparative} 
+
+
+When they used modified Minorsky formula to estimate internal energy based on damage pattern. Improvement of energy formula was taken into consideration by Bae et al. \cite{bae2016study}
+as they used proposed energy formula by Zhang (Eqs. (\hyperref[eq1]{1})–(\hyperref[eq3]{3})). This formula is more speci.c than Minorsky as given in Eqs. (\hyperref[eq4]{4}) and (\hyperref[eq5]{5}) \cite{minorsky1958analysis}, and Woisin in Eq. (\hyperref[eq6]{6}) \cite{woisin1979design} as energy can be calculated based on different damage pattern. 
+
+
+The damage modes of some basic structural element had been investigated by several authors \cite{paik1995ultimate,lu1990cutting,wierzbicki1993closed,simonsen1997ship,prabowo2017structural}, and the mean resistance is expressed in Eq. (\hyperref[eq7]{7}), and its relation with lateral indentation is described in Eq. (\hyperref[eq8]{8}). Kitamura 
+in 2002 introduced finite element method (FEM) approach in simulating collision phenomenon \cite{kitamura2002fem} which was followed with verification in method and setting of FEM \cite{wisniewski2003effect}. 
+
+
 %ECUATIONS
 \begin{flalign} 
     &E=0.77 \varepsilon_{c} \sigma_{0} R_{T}& \label{eq1}  \\[12pt]
@@ -75,27 +85,18 @@ in 2002 introduced finite element method (FEM) approach in simulating collision 
     &F_{p}=D_{2} \sigma_{0} t \delta& \label{eq8}
 \end{flalign}
 
+\begin{figure*}[t]
+    \centering
+    \includegraphics[scale = 1.2]{fig1.jpg}
+    \label{fig1}
+    \caption{Involved ships for collision analysis: (a) struck ship, and (b) striking ship.\\}
+\end{figure*}
+
 These researches are classified in large-analyses as ships are used as observation object. Smaller involved objects was reviewed in crash simulation by finite element analysis \cite{abdel2013frontal} 
 and oblique impact scenario of thin-walled tube \cite{manikandaraja2016numerical}. 
 In collision study, damage is evaluated which directly receives influence from applied material on its structure or construction. Formulation of material characteristic was addressed in term of hardening parameter \cite{krieg1976implementation}
 as in isotropic hardening, the center of the yield surface is fixed but the radius is a function of the plastic strain, strain rate of steel influences yield stress of mild steel which is well known very sensitive to the strain rate 
 \cite{jones1993criteria}, and failure, for example as introduced by Jones and Wierzbicki, there are three failure modes that can be experienced by material in experiencing certain load \cite{jones2011structural}. 
 These concepts were implemented in present work to observe behaviour of the target object when encountered impact load in form of side collision with other ship. 
-
-
-\begin{table}[]
-    \caption{Configurations of the struck and striking ships.}
-    \label{table1}
-    \begin{tabular}{llrlr}
-    \hline
-    Characteristics     &  & \begin{tabular}[c]{@{}r@{}}Struck\Tstrut\\ Passenger ship\Bstrut\end{tabular} &  & \begin{tabular}[c]{@{}r@{}}Striking\Tstrut\\ Cargo ship\Bstrut\end{tabular} \\ \hline
-    Length over all (m)\Tstrut &  & 85.92                                                           &  & 144.50                                                        \\
-    Breadth moulded (m) &  & 15.00                                                           &  & 19.80                                                         \\
-    Design draft (m)    &  & 4.30                                                            &  & 5.60                                                          \\
-    Depth (m)           &  & 10.40                                                           &  & 10.20                                                         \\
-    Frame spacing (m)\Bstrut   &  & 0.60                                                            &  & -                                                             \\ \hline
-    \end{tabular}
-\end{table}
-
 
 \end{document}

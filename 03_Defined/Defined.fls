@@ -389,15 +389,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig1.jpg
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig1.jpg
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig1.jpg
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig2.jpg
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig2.jpg
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig2.jpg
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig3.jpg
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig3.jpg
-INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig3.jpg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
@@ -414,6 +405,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig2.jpg
+INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig2.jpg
+INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig2.jpg
+INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig3.jpg
+INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig3.jpg
+INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/fig3.jpg
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
@@ -421,10 +418,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/Defined.aux
 INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/Defined.out
 INPUT /home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/03_Defined/Defined.out

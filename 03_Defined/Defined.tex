@@ -11,6 +11,20 @@ Scenario was defined including involved ships and configuration during impact. S
     \caption{Involved ships for collision analysis: (a) struck ship, and (b) striking ship.}
 \end{figure*}
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\columnwidth]{fig2.jpg}
+    \label{fig2}
+    \caption{Configurations of double hull structure: (a) 1.5 m and (b) 3.5 m.}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\columnwidth]{fig3.jpg}
+    \label{fig3}
+    \caption{Structure of the struck ship. Side shell is removed to show transverse and longitudinal components.}
+\end{figure}
+
 \subsection{Geometry of involved ships}
 
 This work considered 85 m passenger ship as the struck ship or it would be the target of penetration by other ship. 
@@ -26,18 +40,13 @@ In this situation, the striking ship penetrated side hull of the struck ship wit
 Main parameters were taken from structural level as different double hull spaces of the struck ship would be the target, and mechanical character­istic and configuration, including strength magnitude, 
 failure strain, and hardening type had been selected as parameters in material level. Detail description regarding these configurations are presented consecutively in Table 2. 
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\columnwidth]{fig2.jpg}
-    \label{fig2}
-    \caption{Configurations of double hull structure: (a) 1.5 m and (b) 3.5 m.}
-\end{figure}
+
 
 \subsection{Setting for numerical calculation}
 
 The numerical calculation would be conducted by ANSYS LS­DYNA \cite{ansys2017user} to perform defined collision scenario and produce structural behaviour during and after collision. 
 In this process, the struck ship was defined as deformable structure, and rigid­body characteristic was applied in the striking ship. 
-On both of models, plastic-kinematics material which the yield criterion is presented in Eqs. (9) and (10), was implemented together with element formulation Belytschko-Tsay. 
+On both of models, plastic-kinematics material which the yield criterion is presented in Eqs. \hyperref[eq9]{(9)} and (\hyperref[eq10]{(10)}), was implemented together with element formulation Belytschko-Tsay. 
 This formulation was considered as it was evidenced by previous author that this formulation type could produce faster results than other options in simulation setting \cite{bae2016study}. 
 Meshing size for each ship was given different treatment. The struck ship which was defined as deformable structure, was given meshing size according to rec­ommendation of Tornqvist and Simonsen \cite{toernqvist2004safety}
 as well as Alsos and Amdahl \cite{alsos2007resistance}, who indicated that in order to capture local deformation pattern, the size should be given within range of the element-length-to-thickness (ELT) ratio 5–10.
@@ -48,13 +57,6 @@ as well as Alsos and Amdahl \cite{alsos2007resistance}, who indicated that in or
     &\sigma_{y} =\left[1+\left(\frac{\varepsilon}{C}\right)^{\frac{1}{P}}\right]\left(\sigma_{0}+\beta E_{p} \varepsilon_{p}^{e f f}\right)& \label{eq9} \\[12pt]
     &E_{p} =\frac{E_{\mathrm{tan}} E}{E-E_{\mathrm{tan}}}& \label{eq10}
 \end{flalign}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\columnwidth]{fig3.jpg}
-    \label{fig3}
-    \caption{Structure of the struck ship. Side shell is removed to show transverse and longitudinal components.}
-\end{figure}
 
 
 \begin{table}

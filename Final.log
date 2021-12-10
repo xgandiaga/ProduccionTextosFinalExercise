@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.21)  10 DEC 2021 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.21)  10 DEC 2021 14:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -826,7 +826,7 @@ Overfull \hbox (3.37334pt too wide) in paragraph at lines 56--68
  []
 
 ) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./03_Defined/Defined.tex
-<./03_Defined/fig1.jpg, id=100, 397.80478pt x 168.84319pt>
+<./03_Defined/fig1.jpg, id=107, 397.80478pt x 168.84319pt>
 File: ./03_Defined/fig1.jpg Graphic file (type jpg)
 <use ./03_Defined/fig1.jpg>
 Package pdftex.def Info: ./03_Defined/fig1.jpg  used on input line 9.
@@ -835,174 +835,86 @@ Package pdftex.def Info: ./03_Defined/fig1.jpg  used on input line 9.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package caption Warning: \label without proper reference on input line 32.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig2' on page 2 undefined on input line 20.
-
-
-Package caption Warning: \label without proper reference on input line 55.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig3' on page 2 undefined on input line 20.
-
-<./03_Defined/fig2.jpg, id=104, 369.66425pt x 501.4131pt>
+<./03_Defined/fig2.jpg, id=108, 369.66425pt x 501.4131pt>
 File: ./03_Defined/fig2.jpg Graphic file (type jpg)
 <use ./03_Defined/fig2.jpg>
-Package pdftex.def Info: ./03_Defined/fig2.jpg  used on input line 31.
+Package pdftex.def Info: ./03_Defined/fig2.jpg  used on input line 16.
 (pdftex.def)             Requested size: 252.0pt x 341.8133pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2]
-<./03_Defined/fig3.jpg, id=153, 398.44434pt x 259.0208pt>
+<./03_Defined/fig3.jpg, id=109, 398.44434pt x 259.0208pt>
 File: ./03_Defined/fig3.jpg Graphic file (type jpg)
 <use ./03_Defined/fig3.jpg>
-Package pdftex.def Info: ./03_Defined/fig3.jpg  used on input line 54.
+Package pdftex.def Info: ./03_Defined/fig3.jpg  used on input line 23.
 (pdftex.def)             Requested size: 252.0pt x 163.82027pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./04_Results/Results.tex
+[2]) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./04_Results/Results.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3 <./03_Defined/fig1.jpg>]
-<./04_Results/fig4.jpg, id=171, 422.74753pt x 234.7176pt>
+<./04_Results/fig4.jpg, id=184, 422.74753pt x 234.7176pt>
 File: ./04_Results/fig4.jpg Graphic file (type jpg)
 <use ./04_Results/fig4.jpg>
 Package pdftex.def Info: ./04_Results/fig4.jpg  used on input line 10.
 (pdftex.def)             Requested size: 252.0pt x 139.91837pt.
-<./04_Results/fig5.jpg, id=172, 238.55496pt x 154.77292pt>
+<./04_Results/fig5.jpg, id=185, 238.55496pt x 154.77292pt>
 File: ./04_Results/fig5.jpg Graphic file (type jpg)
 <use ./04_Results/fig5.jpg>
 Package pdftex.def Info: ./04_Results/fig5.jpg  used on input line 17.
 (pdftex.def)             Requested size: 252.0pt x 163.49878pt.
-<./04_Results/fig6.jpg, id=173, 239.19452pt x 155.41248pt>
+<./04_Results/fig6.jpg, id=186, 239.19452pt x 155.41248pt>
 File: ./04_Results/fig6.jpg Graphic file (type jpg)
 <use ./04_Results/fig6.jpg>
 Package pdftex.def Info: ./04_Results/fig6.jpg  used on input line 24.
 (pdftex.def)             Requested size: 252.0pt x 163.73569pt.
-
-
-Package caption Warning: \label without proper reference on input line 18.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig5' on page 4 undefined on input line 30.
-
-
-Package caption Warning: \label without proper reference on input line 25.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig6' on page 4 undefined on input line 30.
-
-[4 <./03_Defined/fig2.jpg> <./03_Defined/fig3.jpg> <./04_Results/fig4.jpg> <./04_Results/fig5.jpg>]
-<./04_Results/fig7.jpg, id=184, 397.80478pt x 118.9577pt>
+ [4 <./03_Defined/fig2.jpg> <./03_Defined/fig3.jpg> <./04_Results/fig4.jpg> <./04_Results/fig5.jpg>]
+<./04_Results/fig7.jpg, id=195, 397.80478pt x 118.9577pt>
 File: ./04_Results/fig7.jpg Graphic file (type jpg)
 <use ./04_Results/fig7.jpg>
 Package pdftex.def Info: ./04_Results/fig7.jpg  used on input line 40.
 (pdftex.def)             Requested size: 252.0pt x 75.35759pt.
-<./04_Results/fig8.jpg, id=185, 303.15027pt x 296.75468pt>
+<./04_Results/fig8.jpg, id=196, 303.15027pt x 296.75468pt>
 File: ./04_Results/fig8.jpg Graphic file (type jpg)
 <use ./04_Results/fig8.jpg>
 Package pdftex.def Info: ./04_Results/fig8.jpg  used on input line 47.
 (pdftex.def)             Requested size: 252.0pt x 246.68668pt.
-
-
-Package caption Warning: \label without proper reference on input line 41.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig7' on page 5 undefined on input line 53.
-
-
-Package caption Warning: \label without proper reference on input line 48.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig8' on page 5 undefined on input line 53.
-
-<./04_Results/fig9.jpg, id=188, 238.55496pt x 177.15744pt>
+<./04_Results/fig9.jpg, id=199, 238.55496pt x 177.15744pt>
 File: ./04_Results/fig9.jpg Graphic file (type jpg)
 <use ./04_Results/fig9.jpg>
 Package pdftex.def Info: ./04_Results/fig9.jpg  used on input line 69.
 (pdftex.def)             Requested size: 252.0pt x 187.14532pt.
-<./04_Results/fig10.jpg, id=189, 239.19452pt x 173.32008pt>
+<./04_Results/fig10.jpg, id=200, 239.19452pt x 173.32008pt>
 File: ./04_Results/fig10.jpg Graphic file (type jpg)
 <use ./04_Results/fig10.jpg>
 Package pdftex.def Info: ./04_Results/fig10.jpg  used on input line 76.
 (pdftex.def)             Requested size: 252.0pt x 182.60234pt.
-<./04_Results/fig11.jpg, id=190, 298.67337pt x 341.52371pt>
+<./04_Results/fig11.jpg, id=201, 298.67337pt x 341.52371pt>
 File: ./04_Results/fig11.jpg Graphic file (type jpg)
 <use ./04_Results/fig11.jpg>
 Package pdftex.def Info: ./04_Results/fig11.jpg  used on input line 83.
 (pdftex.def)             Requested size: 252.0pt x 288.15471pt.
-<./04_Results/fig12.jpg, id=191, 239.19452pt x 176.51788pt>
+<./04_Results/fig12.jpg, id=202, 239.19452pt x 176.51788pt>
 File: ./04_Results/fig12.jpg Graphic file (type jpg)
 <use ./04_Results/fig12.jpg>
 Package pdftex.def Info: ./04_Results/fig12.jpg  used on input line 91.
 (pdftex.def)             Requested size: 252.0pt x 185.97142pt.
+ [5 <./04_Results/fig6.jpg> <./04_Results/fig7.jpg> <./04_Results/fig8.jpg> <./04_Results/fig9.jpg>]
 
-Package caption Warning: \label without proper reference on input line 70.
-See the caption package documentation for explanation.
+LaTeX Warning: Hyper reference `fig13' on page 6 undefined on input line 107.
 
-
-LaTeX Warning: Reference `fig9' on page 5 undefined on input line 97.
-
-
-Package caption Warning: \label without proper reference on input line 77.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig10' on page 5 undefined on input line 97.
-
-
-Package caption Warning: \label without proper reference on input line 84.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig11' on page 5 undefined on input line 98.
-
-[5 <./04_Results/fig6.jpg> <./04_Results/fig7.jpg> <./04_Results/fig8.jpg> <./04_Results/fig9.jpg>]
-
-Package caption Warning: \label without proper reference on input line 92.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig12' on page 6 undefined on input line 106.
-
-
-LaTeX Warning: Reference `fig13' on page 6 undefined on input line 107.
-
-<./04_Results/fig14.jpg, id=203, 239.19452pt x 170.76186pt>
+<./04_Results/fig14.jpg, id=214, 239.19452pt x 170.76186pt>
 File: ./04_Results/fig14.jpg Graphic file (type jpg)
 <use ./04_Results/fig14.jpg>
 Package pdftex.def Info: ./04_Results/fig14.jpg  used on input line 114.
 (pdftex.def)             Requested size: 252.0pt x 179.90712pt.
-<./04_Results/fig15.jpg, id=204, 239.19452pt x 168.20363pt>
+<./04_Results/fig15.jpg, id=215, 239.19452pt x 168.20363pt>
 File: ./04_Results/fig15.jpg Graphic file (type jpg)
 <use ./04_Results/fig15.jpg>
 Package pdftex.def Info: ./04_Results/fig15.jpg  used on input line 121.
 (pdftex.def)             Requested size: 252.0pt x 177.2119pt.
-
-Package caption Warning: \label without proper reference on input line 115.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig14' on page 6 undefined on input line 132.
-
-
-Package caption Warning: \label without proper reference on input line 122.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig15' on page 6 undefined on input line 132.
-
 [6 <./04_Results/fig10.jpg> <./04_Results/fig11.jpg> <./04_Results/fig12.jpg>]) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./05_Conclusions/Conclusions.tex) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/./06_Acknowledgement/Acknowledgement.tex) (/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.bbl [7 <./04_Results/fig14.jpg> <./04_Results/fig15.jpg>]) [8
 
 ]
@@ -1020,18 +932,18 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 24902 strings out of 481239
- 498409 string characters out of 5920377
- 787595 words of memory out of 5000000
+ 24901 strings out of 481239
+ 498403 string characters out of 5920377
+ 787648 words of memory out of 5000000
  39542 multiletter control sequences out of 15000+600000
- 653712 words of font info for 163 fonts, out of 8000000 for 9000
+ 652605 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,88p,499b,872s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,88p,519b,872s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.pdf" (8 pages, 940885 bytes).
+Output written on "/home/doctormckay/Desktop/Ejercicio Final Produccion textos/ProduccionTextosFinalExercise/Final.pdf" (8 pages, 940495 bytes).
 PDF statistics:
- 308 PDF objects out of 1000 (max. 8388607)
- 264 compressed objects within 3 object streams
+ 319 PDF objects out of 1000 (max. 8388607)
+ 275 compressed objects within 3 object streams
  83 named destinations out of 1000 (max. 500000)
  187 words of extra memory for PDF output out of 10000 (max. 10000000)
 

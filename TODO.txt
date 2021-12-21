@@ -1,8 +1,0 @@
-To Do
-
-Images in between references
-
-* Tried using notes field to \includegraphics, does not work
-* Tried using []  for image position with custom scales for size, does not work
-* Tried using [hbpt] for image position with custom scales for size, does not work
-

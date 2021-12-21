@@ -1,7 +1,8 @@
-TODO
+To Do
 
-Spacing
+Images in between references
 
-Tables done except characteristics title in correct alignment
+* Tried using notes field to \includegraphics, does not work
+* Tried using []  for image position with custom scales for size, does not work
+* Tried using [hbpt] for image position with custom scales for size, does not work
 
-SET IMAGES, adjust height
